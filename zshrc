@@ -13,6 +13,8 @@ ZSH_THEME="njbair"
 alias ll='ls -l --group-directories-first'
 alias lla='ls -la --group-directories-first'
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias todo='todo.sh'
+alias t='todo.sh'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -43,3 +45,5 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/njbair/bin:/home/njbair/.gem/ruby/1.9.1/bin
 
 setopt hist_ignore_space
+
+export EDITOR='vim'
