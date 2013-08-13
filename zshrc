@@ -7,15 +7,6 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="njbair"
 
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ll='ls -l --group-directories-first'
-alias lla='ls -la --group-directories-first'
-alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
-alias todo='todo.sh'
-alias t='todo.sh'
-
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -38,6 +29,8 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git)
+
+source $HOME/dotfiles/aliases
 
 source $ZSH/oh-my-zsh.sh
 
