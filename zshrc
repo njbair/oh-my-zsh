@@ -40,5 +40,6 @@ export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/an
 setopt hist_ignore_space
 
 export EDITOR='vim'
+export MC_SKIN="$HOME/.mc/solarized.ini"
 
 eval `dircolors ~/.dircolors`
