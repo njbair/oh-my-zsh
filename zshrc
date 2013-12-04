@@ -43,3 +43,6 @@ export EDITOR='vim'
 export MC_SKIN="$HOME/.mc/solarized.ini"
 
 eval `dircolors ~/.dircolors`
+
+export LC_ALL=en_US.utf-8 
+export LANG="$LC_ALL" 
