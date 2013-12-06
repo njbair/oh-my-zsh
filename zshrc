@@ -30,7 +30,7 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git)
 
-source $HOME/dotfiles/aliases
+source $HOME/dotfiles/aliases.sh
 
 source $ZSH/oh-my-zsh.sh
 
