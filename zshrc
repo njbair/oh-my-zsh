@@ -35,7 +35,7 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/dotfiles/aliases.sh
 
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/njbair/bin:/home/njbair/.gem/ruby/1.9.1/bin
+export PATH=/usr/games:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/opt/android-sdk/platform-tools:/opt/android-sdk/tools:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/njbair/bin:/home/njbair/.gem/ruby/1.9.1/bin
 
 setopt hist_ignore_space
 
