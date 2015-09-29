@@ -30,6 +30,10 @@ COMPLETION_WAITING_DOTS="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git)
 
+if ( command -v uname >/dev/null 2>&1 ); then
+    export UNAME="$(uname)"
+fi
+
 source $ZSH/oh-my-zsh.sh
 
 source $HOME/dotfiles/aliases.sh
