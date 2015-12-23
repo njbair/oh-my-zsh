@@ -32,6 +32,10 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+if ( command -v uname >/dev/null 2>&1 ); then
+    export UNAME="$(uname)"
+fi
+
 source $HOME/dotfiles/aliases.sh
 
 # Customize to your needs...
