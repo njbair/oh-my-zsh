@@ -42,6 +42,10 @@ setopt hist_ignore_space
 export EDITOR='vim'
 export MC_SKIN="$HOME/.mc/solarized.ini"
 
+command -v pygmentize >/dev/null 2>&1 &&
+    export LESS='-R' &&
+    export LESSOPEN='|~/dotfiles/lessfilter %s'
+
 export GOPATH=$HOME/gocode/
 
 eval `dircolors ~/.dircolors`
